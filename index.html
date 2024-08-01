@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./style/Resetstyle.css">
   <link rel="stylesheet" href="./style/style.css">
   <title>Frontend Mentor | Article preview component</title>
+  <script defer src="./app/index.js"></script>
 </head>
 
 <body>
@@ -30,7 +31,7 @@
         you make any room feel complete.
       </p>
 
-      <div class="main_avatar_container">
+      <div id="profileContainer" class="main_avatar_container">
         <div class="main_avatar_image_container">
           <img class="avatar_image" src="./images/avatar-michelle.jpg" alt="avatar" />
         </div>
@@ -45,19 +46,21 @@
         </div>
       </div>
 
-      <div class="main_share_container_items">
-        <div class="share_message_container">
-          <p class="main_share">Share</p>
-        </div>
-        <div class="icons_container">
-          <img class="icons" src="./images/icon-facebook.svg" alt="icon-facebook" />
-          <img class="icons" src="./images/icon-pinterest.svg" alt="icon-pinterest" />
-          <img class="icons" src="./images/icon-twitter.svg" alt="icon-twitter" />
-        </div>
-        <div>
-          <button id="share_button" class="share_button">
-            <img class="share_button_icon" src="./images/icon-share.svg" alt="share-icon" />
-          </button>
+      <div id="hiddenShare" class="hiddenShareContainer">
+        <div class="main_share_container_items">
+          <div class="share_message_container">
+            <p class="main_share">Share</p>
+          </div>
+          <div class="icons_container">
+            <img class="icons" src="./images/icon-facebook.svg" alt="icon-facebook" />
+            <img class="icons" src="./images/icon-pinterest.svg" alt="icon-pinterest" />
+            <img class="icons" src="./images/icon-twitter.svg" alt="icon-twitter" />
+          </div>
+          <div class="main_share_container">
+            <button id="closeShareButton" class="main_button">
+              <img class="button_icon" src="./images/icon-share.svg" alt="share-icon" />
+            </button>
+          </div>
         </div>
       </div>
     </div>
