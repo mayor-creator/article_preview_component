@@ -47,6 +47,7 @@ main {
 	align-items: center;
 	margin-left: 30px;
 	margin-right: 30px;
+	padding-bottom: 30px;
 }
 
 .main_avatar_image_container {
@@ -80,16 +81,15 @@ main {
 	border-radius: 50%;
 }
 
-.main_button,
-.share_button {
+.main_button {
 	height: 32px;
 	width: 32px;
 	border: none;
 	border-radius: 50%;
+	cursor: pointer;
 }
 
-.button_icon,
-.share_button_icon {
+.button_icon {
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -104,6 +104,7 @@ main {
 	padding-left: 30px;
 	padding-right: 30px;
 }
+
 .share_message_container {
 	padding-right: 40px;
 }
@@ -116,6 +117,7 @@ main {
 	letter-spacing: 0.12px;
 	text-transform: uppercase;
 }
+
 .icons_container {
 	display: flex;
 	padding-right: 30px;
@@ -123,6 +125,10 @@ main {
 
 .icons {
 	padding: 10px;
+}
+
+.hiddenShareContainer {
+	display: none;
 }
 
 @media (max-width: 30em) {
@@ -166,5 +172,13 @@ main {
 
 	.main_profile_container {
 		padding-right: 160px;
+	}
+
+	.main_share_container_items {
+		border-radius: 10px;
+		width: 248px;
+		position: relative;
+		left: 250px;
+		bottom: 110px;
 	}
 }
