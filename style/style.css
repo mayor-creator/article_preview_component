@@ -6,84 +6,85 @@ body {
 }
 
 main {
-	width: min(100% - 2rem, 730px);
+	width: min(100% - 2rem, 45.625rem);
 	margin-inline: auto;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 1.875rem;
+	padding-bottom: 1.875rem;
 }
 
 .product_image {
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	border-top-left-radius: 0.625rem;
+	border-top-right-radius: 0.625rem;
 }
 
 .main_product_container {
-	background-color: white;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	padding-top: 40px;
+	background-color: hsl(0, 0%, 100%);
+	border-bottom-left-radius: 0.625rem;
+	border-bottom-right-radius: 0.625rem;
+	padding-top: 2.5rem;
 }
 
 .main_product_name {
-	color: #48556a;
-	font-size: 16px;
+	color: hsl(217, 19%, 35%);
+	font-size: 1rem;
 	font-weight: 900;
 	line-height: 1.5;
-	letter-spacing: 0.2px;
-	padding-bottom: 24px;
-	max-width: 263px;
-	margin-left: 30px;
-	margin-right: 30px;
+	letter-spacing: 0.013rem;
+	padding-bottom: 1.5rem;
+	max-width: 16.438rem;
+	margin-left: 1.875rem;
+	margin-right: 1.875rem;
 }
+
 .main_product_description {
-	padding-bottom: 24px;
-	max-width: 263px;
-	margin-left: 30px;
-	margin-right: 30px;
+	padding-bottom: 1.5rem;
+	max-width: 16.438rem;
+	margin-left: 1.875rem;
+	margin-right: 1.875rem;
 }
 
 .main_avatar_container {
 	display: flex;
 	align-items: center;
-	margin-left: 30px;
-	margin-right: 30px;
-	padding-bottom: 30px;
+	margin-left: 1.875rem;
+	margin-right: 1.875rem;
+	padding-bottom: 1.875rem;
 }
 
 .main_avatar_image_container {
-	padding-right: 10px;
+	padding-right: 0.625rem;
 }
 
 .main_profile_container {
-	padding-right: 60px;
+	padding-right: 3.75rem;
 }
 
 .main_product_description,
 .main_profile_date {
-	color: #6e8098;
-	font-size: 13px;
+	color: hsl(214, 17%, 51%);
+	font-size: 0.813rem;
 	font-weight: 500;
 	line-height: 1.54;
-	letter-spacing: 0.12px;
+	letter-spacing: 0.008rem;
 }
 
 .main_profile_name {
-	color: #48556a;
-	font-size: 13px;
+	color: hsl(217, 19%, 35%);
+	font-size: 0.813rem;
 	font-weight: 900;
 	line-height: 1.54;
-	letter-spacing: 0.12px;
+	letter-spacing: 0.008rem;
 }
 
 .avatar_image {
-	height: 40px;
-	width: 40px;
+	height: 2.5rem;
+	width: 2.5rem;
 	border-radius: 50%;
 }
 
 .main_button {
-	height: 32px;
-	width: 32px;
+	height: 2rem;
+	width: 2rem;
 	border: none;
 	border-radius: 50%;
 	cursor: pointer;
@@ -95,36 +96,36 @@ main {
 }
 
 .main_share_container_items {
-	background-color: #48556a;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	height: 64px;
+	background-color: hsl(217, 19%, 35%);
+	border-bottom-left-radius: 0.625rem;
+	border-bottom-right-radius: 0.625rem;
+	height: 4rem;
 	display: flex;
 	align-items: center;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 1.875rem;
+	padding-right: 1.875rem;
 }
 
 .share_message_container {
-	padding-right: 40px;
+	padding-right: 2.5rem;
 }
 
 .main_share {
-	color: #9daec2;
-	font-size: 13px;
+	color: hsl(212, 23%, 69%);
+	font-size: 0.813rem;
 	font-weight: 500;
 	line-height: 1.54;
-	letter-spacing: 0.12px;
+	letter-spacing: 0.008rem;
 	text-transform: uppercase;
 }
 
 .icons_container {
 	display: flex;
-	padding-right: 30px;
+	padding-right: 1.875rem;
 }
 
 .icons {
-	padding: 10px;
+	padding: 0.625rem;
 }
 
 .hiddenShareContainer {
@@ -141,44 +142,46 @@ main {
 @media (min-width: 64.063em) {
 	main {
 		display: grid;
-		grid-template-columns: 285px 445px;
+		grid-template-columns: 17.813rem 27.813rem;
 		justify-content: center;
 		align-items: center;
 		min-height: 100vh;
-		padding: 0px;
+		padding: 0rem;
 	}
 
 	.product_image {
-		height: 280px;
-		border-top-left-radius: 10px;
-		border-top-right-radius: 0px;
-		border-bottom-left-radius: 10px;
+		height: 17.5rem;
+		border-top-left-radius: 0.625rem;
+		border-top-right-radius: 0rem;
+		border-bottom-left-radius: 0.625rem;
 	}
 
 	.main_product_container {
-		height: 280px;
-		border-top-right-radius: 10px;
-		border-bottom-left-radius: 0px;
-		padding-top: 0px;
+		height: 17.5rem;
+		border-top-right-radius: 0.625rem;
+		border-bottom-left-radius: 0rem;
+		padding-top: 0rem;
 	}
 
 	.main_product_name {
-		font-size: 20px;
-		max-width: 365px;
+		font-size: 1.25rem;
+		max-width: 22.813rem;
+		padding-top: 1.5rem;
 	}
+
 	.main_product_description {
-		max-width: 365px;
+		max-width: 22.813rem;
 	}
 
 	.main_profile_container {
-		padding-right: 160px;
+		padding-right: 10rem;
 	}
 
 	.main_share_container_items {
-		border-radius: 10px;
-		width: 248px;
+		border-radius: 0.625rem;
+		width: 15.5rem;
 		position: relative;
-		left: 250px;
-		bottom: 110px;
+		left: 15.625rem;
+		bottom: 9.375rem;
 	}
 }
